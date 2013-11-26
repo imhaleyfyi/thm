@@ -109,11 +109,15 @@ header.fixed-top a:hover, header.fixed-top a:hover h3 {
 	visibility: hidden;
 }
 
+#anchors li {
+	display: inline;
+}
+
 /* #Page Styles
 ================================================== */
 
 /* hpage styles */
-.hpage a:hover {
+.hpage .container a:not(.joah):hover {
 	color: #FF530D;
 }
 
@@ -126,8 +130,12 @@ header.fixed-top a:hover, header.fixed-top a:hover h3 {
 	color: #FF530D;
 }
 
+.hpage .container h3 {
+	border-bottom: 1px solid rgba(255, 83, 13, 0.3);
+}
+
 .hpage .container {
-	margin-top: 80px;
+	margin-top: 60px;
 }
 
 /* #Media Queries
