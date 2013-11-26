@@ -108,8 +108,21 @@ header.fixed-top a:hover, header.fixed-top a:hover h3 {
 /* #Page Styles
 ================================================== */
 
-.haley-page a:hover {
+.hpage a:hover {
 	color: #FF530D;
+}
+
+.hpage header a {
+	padding: 10px 0;
+}
+
+.hpage h1 {
+	text-align: left;
+	color: #FF530D;
+}
+
+.hpage .container {
+	margin-top: 80px;
 }
 
 /* #Media Queries
