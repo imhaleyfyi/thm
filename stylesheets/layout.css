@@ -53,7 +53,7 @@ img {
 }
 
 .container {
-	margin-top: 130px;
+	margin: 130px auto;
 }
 
 a.person {
@@ -135,7 +135,7 @@ header.fixed-top a:hover, header.fixed-top a:hover h3, header.fixed-top a:focus,
 }
 
 .hpage .container {
-	margin-top: 60px;
+	margin: 60px auto;
 }
 
 .hpage .container h3 {
